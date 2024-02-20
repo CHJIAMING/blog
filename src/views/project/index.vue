@@ -1,0 +1,7 @@
+<template>
+  <div>项目</div>
+</template>
+<script lang="ts" setup>
+import { ref, reactive, watch, computed, nextTick, onMounted } from "vue";
+</script>
+<style lang="scss" scoped></style>
