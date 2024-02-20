@@ -65,7 +65,7 @@ import { useRouter, useRoute } from "vue-router";
 import circleUrl from "../../assets/img/header.jpg";
 import { useDark, useToggle } from "@vueuse/core";
 import { Sunny, Moon, User } from "@element-plus/icons-vue";
-// ----------------------- 定义字段 -----------------------
+// ----------------------- 字段 -----------------------
 const router = useRouter();
 const route = useRoute();
 const activeName = ref("Article");
@@ -74,6 +74,7 @@ const toggleDark = useToggle(isDark);
 const value1 = ref(false);
 const userName = ref("");
 const passWord = ref("");
+const checked1 = ref(true);
 const dialogTableVisible = ref(false);
 const showPassword = ref(true);
 onMounted(() => {
